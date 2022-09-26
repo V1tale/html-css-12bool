@@ -1,0 +1,23 @@
+body {
+    background-color: black
+}
+div [class^="col"] {
+    background-color: fuchsia;
+    height: 50px;
+    border: 2px solid rgb(0, 191, 255)
+}
+div [class$="inner"] {
+    background-color: yellow;
+    border: 5px solid fuchsia;
+    height: 46px;
+}
+.margin {
+    margin-top: 20px;
+}
+h2 {
+    padding: 10px 0;
+    color: white;
+}
+div [class*="offset"] {
+    border:0px;
+}
